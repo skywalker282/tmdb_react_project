@@ -1,0 +1,88 @@
+
+
+.nav {
+    background-color: #184477;
+    .appbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+        background-color: #184477;
+        .navLeft {
+            display: flex;
+            justify-content: center;
+            .appbarBrandLogo {
+                width: 25px;
+            }
+            .appbarBrandText {
+                font-size: 16px;
+                color: #fff;
+                font-family: 'roboto';
+                margin: auto 15px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+        .navRight {
+            display: flex;
+            justify-content: center;
+            .appbarPseudo {
+                text-decoration: none;
+                color: #fff;
+                margin: auto 15px;
+            }
+            .appbarPowerOff {
+                width: 25px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .navigation {
+        padding: 5px 25px;
+        display: flex;
+        justify-content: center;
+        .navTabs {
+            border-bottom: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding-right: 35px;
+            .menuTab {
+                text-align: center;
+                padding-bottom: 15px;
+                width: 15vw;
+                color: #fff;
+                font-weight: bold;
+                font-size: 18px;
+                margin: auto 15px;
+                cursor: pointer;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                a:active {
+                    color: #fff;
+                }
+            }
+            .borderBottom{
+                text-align: center;
+                padding-bottom: 15px;
+                width: 15vw;
+                color: #fff;
+                font-weight: bold;
+                font-size: 18px;
+                margin: auto 15px;
+                cursor: pointer;
+                border-bottom: 3px solid #fff;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                a:active {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

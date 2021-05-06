@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "aileron-sb";
+  src: url("../fonts/Aileron-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "aileron-thin";
+  src: url("../fonts/Aileron-Thin.otf");
+}
+
+@font-face {
+  font-family: "aileron-light";
+  src: url("../fonts/Aileron-Light.otf");
+}
+
+@font-face {
+  font-family: "aileron-reg";
+  src: url("../fonts/Aileron-Regular.otf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "aileron-light";
+}
+
+.splash {
+  width: 100%;
+  background-color: rgba(11, 48, 90, 0.5);
+  padding: 1% 7%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  .splash__header {
+    font-family: "aileron-sb";
+    font-size: 42px;
+    text-align: center;
+    color: #184477;
+    margin: 10px auto;
+    .subHead {
+      font-family: "aileron-thin";
+      font-weight: 100;
+    }
+  }
+  .splash__body {
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #000000d8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 30px auto;
+    .splashHero {
+      color: #fff;
+      font-size: 34px;
+      text-align: center;
+      padding: 50px auto;
+    }
+    .splashSpinner {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      margin-bottom: 50px;
+      img {
+        width: 7vw;
+        border-radius: 5px;
+      }
+    }
+  }
+  .splash__footer {
+    border-top: 1px solid #fff;
+    padding: 25px 10vw;
+    text-align: center;
+    font-size: 16px;
+    color: #0c4997;
+    font-family: "aileron-reg";
+  }
+}

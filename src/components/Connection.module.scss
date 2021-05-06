@@ -1,0 +1,30 @@
+
+.connectionScreen {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding: 25px 35px;
+    .connectionHero {
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    form {
+        p {
+            width: 100%;
+            input, select {
+                height: 25px;
+            }
+            label {
+                font-size: 24px;
+            }
+        }
+        .btn-submi {
+            text-align: right;
+             
+        }
+    }
+}
